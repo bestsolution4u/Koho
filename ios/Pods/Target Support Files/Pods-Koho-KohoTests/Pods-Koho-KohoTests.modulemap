@@ -1,0 +1,6 @@
+module Pods_Koho_KohoTests {
+  umbrella header "Pods-Koho-KohoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
