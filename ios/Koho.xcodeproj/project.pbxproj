@@ -30,20 +30,39 @@
 		00E356EE1AD99517003FC87E /* KohoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KohoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* KohoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KohoTests.m; sourceTree = "<group>"; };
+		0814ECE6DD2C48AB91492F85 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		0ACD2AC2849A4C0F8E9008B0 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Koho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Koho/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Koho/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Koho/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Koho/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Koho/main.m; sourceTree = "<group>"; };
+		14F168C550FB4FC3887161C1 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		2977839A29E84799857C7C0A /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		29F0F5880A1CB91F1FECDF9B /* libPods-Koho-KohoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Koho-KohoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DC8FD7279444258BE47588 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		435EBA2AAF204158AAC1738E /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		4C74B8A78A4D489CB8A90939 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		5D24975402874156B6CC6FC6 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		66638F6DD9A93C37E3A7A837 /* Pods-Koho-KohoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koho-KohoTests.debug.xcconfig"; path = "Target Support Files/Pods-Koho-KohoTests/Pods-Koho-KohoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68573D9EBC2A48AF9DCF67F0 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		6C865E6DB17770F280D098EB /* Pods-Koho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koho.release.xcconfig"; path = "Target Support Files/Pods-Koho/Pods-Koho.release.xcconfig"; sourceTree = "<group>"; };
+		6DFBAB0FA2FC4EF6980425B0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		73F9113B638049E58DCA63FC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		76000C4637AE4DC3A3AAFEDC /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Koho/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83687AC6F5E0CDC9F98395AE /* Pods-Koho-KohoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koho-KohoTests.release.xcconfig"; path = "Target Support Files/Pods-Koho-KohoTests/Pods-Koho-KohoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F14B29E189D4CFBB8C272EE /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		9F4D912FE4B047F7B86821D9 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		A15F204C8D6F4ACDACE612C9 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		AC1F2CE2697E4F1D8CED2EB2 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		C094821AA30A33642CE17AB9 /* Pods-Koho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koho.debug.xcconfig"; path = "Target Support Files/Pods-Koho/Pods-Koho.debug.xcconfig"; sourceTree = "<group>"; };
+		C759C26A0D9640C38C20F7AD /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		DE2D451AF7EE4FF4951D52F6 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F31BB0E9E735EF4AF1BCE0B1 /* libPods-Koho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Koho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8536A7A538B45E3A734F0DD /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +133,33 @@
 				66638F6DD9A93C37E3A7A837 /* Pods-Koho-KohoTests.debug.xcconfig */,
 				83687AC6F5E0CDC9F98395AE /* Pods-Koho-KohoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C96D26489DD4776849E6B02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68573D9EBC2A48AF9DCF67F0 /* AntDesign.ttf */,
+				DE2D451AF7EE4FF4951D52F6 /* Entypo.ttf */,
+				435EBA2AAF204158AAC1738E /* EvilIcons.ttf */,
+				9F4D912FE4B047F7B86821D9 /* Feather.ttf */,
+				41DC8FD7279444258BE47588 /* FontAwesome.ttf */,
+				A15F204C8D6F4ACDACE612C9 /* FontAwesome5_Brands.ttf */,
+				AC1F2CE2697E4F1D8CED2EB2 /* FontAwesome5_Regular.ttf */,
+				6DFBAB0FA2FC4EF6980425B0 /* FontAwesome5_Solid.ttf */,
+				4C74B8A78A4D489CB8A90939 /* Fontisto.ttf */,
+				C759C26A0D9640C38C20F7AD /* Foundation.ttf */,
+				8F14B29E189D4CFBB8C272EE /* Ionicons.ttf */,
+				F8536A7A538B45E3A734F0DD /* MaterialCommunityIcons.ttf */,
+				2977839A29E84799857C7C0A /* MaterialIcons.ttf */,
+				14F168C550FB4FC3887161C1 /* Octicons.ttf */,
+				76000C4637AE4DC3A3AAFEDC /* Roboto_medium.ttf */,
+				0814ECE6DD2C48AB91492F85 /* Roboto.ttf */,
+				0ACD2AC2849A4C0F8E9008B0 /* rubicon-icon-font.ttf */,
+				73F9113B638049E58DCA63FC /* SimpleLineIcons.ttf */,
+				5D24975402874156B6CC6FC6 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -134,6 +178,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				59E631A4B7D418562AA64BBC /* Pods */,
+				5C96D26489DD4776849E6B02 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
