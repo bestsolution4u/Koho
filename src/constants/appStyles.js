@@ -1,25 +1,22 @@
 import {StyleSheet} from 'react-native';
 
 export const AppStyles = StyleSheet.create({
-    row: {
-        flexDirection: 'row',
-    },
     container: {
         flex: 1,
-        flexDirection: 'column',
         height: '100%',
+        width: '100%',
         backgroundColor: '#ffffff',
     },
-    centeredContainer: {
-        flex: 1,
+    center: {
         justifyContent: 'center',
         alignItems: 'center'
     },
-    header: {
-        width: '100%',
-        height: 50,
+    row: {
         flexDirection: 'row',
-        backgroundColor: 'white',
-        alignItems: 'center'
+    },
+    backgroundImage: {
+        position: 'absolute',
+        width: '100%',
+        height: '100%'
     }
 });

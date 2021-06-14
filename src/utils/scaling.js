@@ -1,6 +1,7 @@
 import {Dimensions} from "react-native";
 
-const {WIDTH, HEIGHT} = Dimensions.get('window');
+const WIDTH = Dimensions.get('window').width;
+const HEIGHT = Dimensions.get('window').height;
 
 const designWidth = 375;
 const designHeight = 812;

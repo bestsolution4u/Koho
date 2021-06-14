@@ -19,10 +19,10 @@ const MainStackNavigation = createStackNavigator(
 
 const AppDrawerNavigation = createDrawerNavigator(
     {
-        Main: {screen: MainStackNavigation}
+        MainMenuPage: {screen: MainStackNavigation}
     },
     {
-        initialRouteName: 'Main',
+        initialRouteName: 'MainMenuPage',
         drawerWidth: 275,
         drawerPosition: 'left',
         drawerType: 'push-screen',
@@ -30,5 +30,5 @@ const AppDrawerNavigation = createDrawerNavigator(
     }
 );
 
-const AppMainContainer = createAppContainer(AppDrawerNavigation);
+export const AppMainContainer = createAppContainer(AppDrawerNavigation);
 
