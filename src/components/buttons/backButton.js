@@ -5,7 +5,7 @@ import {TouchableOpacity} from "react-native";
 
 const BackButton = memo(({color = '#000', onPress}) => {
     return (
-        <TouchableOpacity onPress={() => onPress} style={{marginLeft: scaleW(20), marginTop: scaleH(8)}}>
+        <TouchableOpacity onPress={onPress} style={{marginLeft: scaleW(20), marginTop: scaleH(8)}}>
             <MaterialIcon name='arrow-back-ios' color={color} size={scaleW(20)}/>
         </TouchableOpacity>
     );

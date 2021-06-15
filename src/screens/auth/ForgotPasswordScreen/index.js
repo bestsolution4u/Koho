@@ -13,7 +13,9 @@ const ForgotPasswordScreen = props => {
                 barStyle="dark-content"
             />
             <SafeAreaView>
-                <BackButton onPress={() => {}} />
+                <BackButton onPress={() => {
+                    props.navigation.pop();
+                }} />
                 <Text>asdfasdf</Text>
             </SafeAreaView>
         </View>
