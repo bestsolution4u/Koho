@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {ImageBackground, StatusBar, Text, TouchableOpacity, View} from "react-native";
 import {connect} from 'react-redux';
 import {AppStyles} from "../../../constants/appStyles";
@@ -6,8 +6,15 @@ import {styles} from './styles';
 import Spacer from "../../../components/spacer";
 import {scaleH, scaleW} from "../../../utils/scaling";
 import ColorButton from "../../../components/buttons/colorButton";
+import TextValidatedInput from "../../../components/input/textValidatedInput";
+import PasswordInput from "../../../components/input/passwordInput";
 
 const SignupScreen = props => {
+    const [isValidName, setNameValid] = useState(false);
+    const [isValidEmail, setEmailValid] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+
     return (
         <View style={AppStyles.container}>
             <StatusBar
@@ -19,10 +26,25 @@ const SignupScreen = props => {
             <View style={AppStyles.center}>
                 <ImageBackground source={require('../../../assets/images/logo.png')} style={styles.logo} />
                 <Text style={{color: '#fff', fontSize: 24}}>Hello</Text>
-                <Text style={{color: '#fff', fontSize: 14}}>Create an account to continue!</Text>
-                <TouchableOpacity onPress={() => {}}>
-                    <Text style={{color: '#8C52FF', fontSize: 13, marginVertical: scaleH(20)}}>Forgot Password</Text>
-                </TouchableOpacity>
+                <Text style={{color: '#fff', fontSize: 14, marginVertical: scaleH(15)}}>Create an account to continue!</Text>
+                <TextValidatedInput
+                    onValidate={(value) => setNameValid(value !== '')}
+                    onChangeText={(value) => setName(value)}
+                    isValid={isValidName}
+                    hint='Name'
+                    style={{marginBottom: scaleH(10)}}
+                />
+                <TextValidatedInput
+                    onValidate={(value) => setEmailValid(value !== '')}
+                    onChangeText={(value) => setEmail(value)}
+                    isValid={isValidEmail}
+                    hint='Email'
+                    style={{marginBottom: scaleH(10)}}
+                />
+                <PasswordInput
+                    hint='Password'
+                    onChangeText={() => {}} />
+                <View style={{height: scaleH(10)}}/>
                 <ColorButton
                     width={scaleW(305)}
                     height={scaleW(44)}
@@ -30,7 +52,7 @@ const SignupScreen = props => {
                     label='Sign Up'
                     borderRadius={22}
                     onPress={() => {
-
+                        props.navigation.navigate('GetStarted');
                     }}
                 />
                 <Text style={{color: '#fff', fontSize: 14, marginVertical: scaleH(22)}}>Or</Text>
@@ -41,9 +63,7 @@ const SignupScreen = props => {
                         color='#8C52FF'
                         label='Facebook'
                         borderRadius={22}
-                        onPress={() => {
-
-                        }}
+                        onPress={() => {}}
                     />
                     <ColorButton
                         width={scaleW(95)}
@@ -51,9 +71,7 @@ const SignupScreen = props => {
                         color='#00C2CB'
                         label='Twitter'
                         borderRadius={22}
-                        onPress={() => {
-
-                        }}
+                        onPress={() => {}}
                         style={{marginHorizontal: scaleW(8)}}
                     />
                     <ColorButton
@@ -62,9 +80,7 @@ const SignupScreen = props => {
                         color='#FF66C4'
                         label='Apple Id'
                         borderRadius={22}
-                        onPress={() => {
-
-                        }}
+                        onPress={() => {}}
                     />
                 </View>
                 <View style={{flexDirection: 'row', marginVertical: scaleH(35)}}>
