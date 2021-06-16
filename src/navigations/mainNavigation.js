@@ -1,13 +1,10 @@
 import {createStackNavigator} from "react-navigation-stack";
 import MainScreen from "../screens/main/MainScreen";
-import {createDrawerNavigator} from "react-navigation-drawer";
 import AppMenu from "../screens/main/AppMenu";
-import {createAppContainer} from "react-navigation";
-import HomeScreen from "../screens/main/HomeScreen";
-import {View} from "react-native";
 import {connect} from "react-redux";
 import React, {useRef} from "react";
 import SwipeAbleDrawer from "../components/drawer/swipeAbleDrawer";
+import NavigationService from '../navigations/navigationService';
 
 const MainStack = createStackNavigator(
     {
@@ -38,7 +35,9 @@ const MainNavigation = props => {
             {...defaultScalingDrawerConfig}
             onClose={() => console.log('close')}
             onOpen={() => console.log('open')}>
-            <MainStack />
+            <MainStack ref={navigatorRef => {
+                NavigationService.setDrawerLevelNavigator(navigatorRef);
+            }} />
         </SwipeAbleDrawer>
     );
 }

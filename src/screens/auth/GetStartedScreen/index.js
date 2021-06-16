@@ -1,13 +1,12 @@
 import React from "react";
-import {ImageBackground, StatusBar, Text, TouchableOpacity, View} from "react-native";
+import {ImageBackground, StatusBar, Text, View} from "react-native";
 import {connect} from 'react-redux';
 import {AppStyles} from "../../../constants/appStyles";
 import {styles} from './styles';
 import Spacer from "../../../components/spacer";
 import {scaleH, scaleW} from "../../../utils/scaling";
-import TextValidatedInput from "../../../components/input/textValidatedInput";
-import PasswordInput from "../../../components/input/passwordInput";
 import ColorButton from "../../../components/buttons/colorButton";
+import NavigationService from "../../../navigations/navigationService";
 
 const GetStartedScreen = props => {
     return (
@@ -31,9 +30,7 @@ const GetStartedScreen = props => {
                     textColor='#8C52FF'
                     label='Get Started'
                     borderRadius={22}
-                    onPress={() => {
-                        props.navigation.navigate('Login');
-                    }}
+                    onPress={() => NavigationService.navigateAppLevel('Main')}
                 />
             </View>
             <Spacer />

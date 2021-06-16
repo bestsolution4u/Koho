@@ -8,6 +8,7 @@ import ColorButton from "../../../components/buttons/colorButton";
 import {scaleH, scaleW} from "../../../utils/scaling";
 import TextValidatedInput from "../../../components/input/textValidatedInput";
 import PasswordInput from "../../../components/input/passwordInput";
+import NavigationService from "../../../navigations/navigationService";
 
 const LoginScreen = props => {
 
@@ -47,9 +48,7 @@ const LoginScreen = props => {
                     color='#8C52FF'
                     label='Login'
                     borderRadius={22}
-                    onPress={() => {
-
-                    }}
+                    onPress={() => NavigationService.navigateAppLevel('Main')}
                 />
                 <Text style={{color: '#fff', fontSize: 14, marginVertical: scaleH(22)}}>Or</Text>
                 <View style={{flexDirection: 'row'}}>
